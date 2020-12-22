@@ -16,11 +16,18 @@ header{
     height: 100px;
 }
 
-.redes {
+.busqueda{
+    background-color: #ffffff;
+    color: blue;
+    /*margin-top: 2px;
+    margin: 1px;*/
+}
+
+.redes .busqueda {
     font-size: medium;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkgoldenrod;
-    
+    color: rgb(52, 117, 190);
+    display: inline-block;
 }
 
 .titulo {
@@ -48,5 +55,64 @@ header{
 
 .informacion1 {
     margin: 10px 100px;
+    text-align: justify;
+}
+
+.tsciencia, .informacion2 {
+    display: inline-block;
+}
+
+/*.tsciencia, {
+    height: 20%;
+}*/
+
+.informacion2 {
+    margin: 50px 120px;/*1100px 50px 70px;*/
+    color: black;
+    text-align: center;
+}
+
+.line {
+    box-shadow: 5px 3px 3px #000000;
+    margin: 50px 120px;
+}
+
+.texto1 {
+    text-align: center;
+    color: #181c53;
+    font-weight: bold;
+    margin: 50px 200px;
+    background-color:rgb(140, 151, 151);
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: black 2px solid;
+    
+    }
+
+.tpp{
+    text-align: center;
+}
+.pairp, .informacion3 {
+    display: inline-flexbox;
+    margin: 50px 100px;
+}
+.informacion3 {
+    color: black;
+    text-align: justify;
+}
+
+.lp, .informacion4 {
+    display: inline-block;
+    
+}
+
+.lp {
+    text-align: right;
+    margin: 50px 100px;
+}
+
+.informacion4 {
+    margin: 50px 100px;/*1100px 50px 70px;*/
+    color: black;
     text-align: justify;
 }
