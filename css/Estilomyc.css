@@ -91,10 +91,14 @@ header{
 
 .tpp{
     text-align: center;
-}
-.pairp, .informacion3 {
-    display: inline-flexbox;
     margin: 50px 100px;
+
+}
+
+
+
+/*.pairp, .informacion3 {
+    display: inline-flexbox;
 }
 .informacion3 {
     color: black;
@@ -112,7 +116,42 @@ header{
 }
 
 .informacion4 {
-    margin: 50px 100px;/*1100px 50px 70px;*/
+    margin: 50px 100px;/*1100px 50px 70px;
     color: black;
     text-align: justify;
+}*/
+
+
+.informacion4, .informacion3, .informaciontitulo{
+    text-align: justify;
+    margin: 100px;
+}
+
+.pairp, .lp{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 150px;
+
+}
+
+
+.lenguajes {
+margin: 100px;
+text-align: center;
+
+}
+
+.logopage {
+    margin-top: 150px;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.informacionptitulo {
+    text-align: center;
 }
