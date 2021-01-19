@@ -14,20 +14,83 @@ header{
     position: fixed;
     width: 100%;
     height: 100px;
+    
+
 }
 
 .busqueda{
     background-color: #ffffff;
     color: blue;
+    margin-left: 100px!important;
+    vertical-align: middle;
     /*margin-top: 2px;
     margin: 1px;*/
 }
 
-.redes .busqueda {
+.redes {
     font-size: medium;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(52, 117, 190);
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.redes1 {
+    margin-left: 100px!important;
+    
+}
+.nav{
+  float: left; 
+  list-style: none;
+  padding: 0px 0px;
+  margin: 0px;
+  background-color: rgb(27, 0, 88);
+  width: 100%;
+  
+  
+
+}
+ 
+nav ul {
+  line-height: 0%;
+  
+  list-style: none;
+  display: table;
+  background-color: rgb(27, 0, 88);
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16x;
+  
+}
+ 
+nav a {
+  display: block; 
+  padding: 25px 2cm;
+  color: rgb(153, 146, 146);
+  text-decoration: none;
+}
+ 
+nav a:hover {
+  background: #303b50;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+}
+
+nav li ul li{
+    
+    position: absolute;
+    float: left;
+    display: block;
+    weight: 400%;
+
 }
 
 .titulo {
@@ -143,7 +206,7 @@ text-align: center;
 }
 
 .logopage {
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 550px;
     margin-right: 550px;
     padding-top: 5px;
